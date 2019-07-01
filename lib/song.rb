@@ -21,9 +21,9 @@ def artists=(array)
   @artists
 end
 
-def self.artists
-  @artists
-end
+# def self.artists
+#   @artists
+# end
 # binding.pry
   def self.count
     @@count
