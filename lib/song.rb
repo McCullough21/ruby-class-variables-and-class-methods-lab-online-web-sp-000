@@ -17,8 +17,7 @@ class Song
   end
 
 def artists=(array)
-  @artists = ["Jay-Z", "Jay-Z", "Brittany Spears"]
-  # @artists = @artists.uniq
+  @artists = @@arists.uniq
 end
 
 binding.pry
