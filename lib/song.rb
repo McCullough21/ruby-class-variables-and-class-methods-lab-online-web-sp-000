@@ -16,7 +16,7 @@ class Song
     @@genres << genre
   end
 
-def artists
+def artists=(array)
   @artists = ["Jay-Z", "Jay-Z", "Brittany Spears"]
   # @artists = @artists.uniq
 end
