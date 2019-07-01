@@ -4,6 +4,7 @@ class Song
  @@artists = []
  @@genres = []
 
+
  attr_reader :name, :genre, :artist
 
   def initialize(name, artist, genre)
@@ -16,8 +17,8 @@ class Song
   end
 
 def artists
-  @artists[]
-  @artists = @@artists.uniq
+  @artists = ["Jay-Z", "Jay-Z", "Brittany Spears"]
+  @artists = @artists.uniq
 end
 
 binding.pry
