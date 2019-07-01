@@ -32,9 +32,9 @@ end
   end
 
   def self.genre_count
-   @genres_count = {}
-    @@genres.collect do |genre|
-      @genres_count[genre] = genre.count
+   @genres_count = Hash.new
+    @@genres.each do |genre|
+      @genres_count[genre] += 1
     end
   end
 
