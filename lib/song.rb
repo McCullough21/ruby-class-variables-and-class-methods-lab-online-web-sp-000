@@ -15,7 +15,7 @@ class Song
   end
 
 def artists
-  @artists[] 
+  @artists[]
    = @@artists.uniq
 end
 
