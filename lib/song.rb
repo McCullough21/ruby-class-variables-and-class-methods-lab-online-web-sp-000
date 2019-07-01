@@ -20,7 +20,7 @@ def artists=(array)
   @artists = @@arists.uniq
 end
 
-binding.pry
+# binding.pry
   def self.count
     @@count
   end
