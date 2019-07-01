@@ -16,12 +16,12 @@ class Song
     @@genres << genre
   end
 
-def artists=(array)
+def self.artists=(array)
   @artists = @@arists.uniq
   @artists
 end
 
-def artists
+def self.artists
   @artists
 end
 # binding.pry
