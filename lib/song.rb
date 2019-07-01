@@ -19,7 +19,9 @@ class Song
 def artists=(array)
   @artists = @@arists.uniq
 end
-
+def artists
+  @artists
+end
 # binding.pry
   def self.count
     @@count
