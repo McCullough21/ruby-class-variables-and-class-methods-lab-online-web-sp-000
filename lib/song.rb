@@ -18,7 +18,7 @@ class Song
 
 def artists
   @artists = ["Jay-Z", "Jay-Z", "Brittany Spears"]
-  
+  # @artists = @artists.uniq
 end
 
 binding.pry
