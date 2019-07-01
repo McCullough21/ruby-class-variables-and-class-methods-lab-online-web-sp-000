@@ -19,9 +19,9 @@ class Song
 def artists
   @@artists.uniq
 end
-# def self.artists
-#   @artists
-# end
+def self.artists
+  @@artists.uniq
+end
 # binding.pry
   def self.count
     @@count
