@@ -17,8 +17,8 @@ class Song
   end
 binding.pry
 def artists=(array)
-  @artists = []
-  @artists = @@arists.uniq
+  @artists = @@arists.uniq 
+  @artists  
 end
 def self.artists
   @artists
