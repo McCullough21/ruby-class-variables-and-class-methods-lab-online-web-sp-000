@@ -36,6 +36,7 @@ end
     @@genres.each do |genre|
       @genres_count[genre] += 1
     end
+   @genres_count
   end
 
 
