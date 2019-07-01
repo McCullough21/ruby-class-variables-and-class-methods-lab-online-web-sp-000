@@ -20,7 +20,7 @@ def artists=(array)
   @artists = []
   @artists = @@arists.uniq
 end
-def artists
+def self.artists
   @artists
 end
 # binding.pry
