@@ -15,7 +15,7 @@ class Song
   end
 
 def artists
-  @artists = @@artists.uniq
+  @artists[] = @@artists.uniq
 end
 
   def self.count
