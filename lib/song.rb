@@ -21,7 +21,7 @@ def artists=(array)
   @artists
 end
 
-def self.artists
+def artists
   @artists
 end
 # binding.pry
