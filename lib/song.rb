@@ -15,7 +15,7 @@ class Song
     @@artists << artist
     @@genres << genre
   end
-
+binding.pry
 def artists=(array)
   @artists = []
   @artists = @@arists.uniq
