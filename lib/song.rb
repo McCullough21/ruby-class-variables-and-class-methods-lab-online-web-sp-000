@@ -14,13 +14,8 @@ class Song
     @@count +=1
     @@artists << artist
     @@genres << genre
+    @artists = @@arists.uniq
   end
-
-def self.artists=(array)
-  @artists = []
-  @artists = @@arists.uniq
-
-end
 
 def self.artists
   @artists
