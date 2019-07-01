@@ -1,3 +1,4 @@
+require 'pry'
 class Song
  @@count = 0
  @@artists = []
@@ -19,6 +20,7 @@ def artists
   @artists = @@artists.uniq
 end
 
+binding.pry
   def self.count
     @@count
   end
