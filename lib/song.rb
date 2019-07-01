@@ -32,9 +32,9 @@ end
   end
 
   def self.genre_count
-   @genre_count = {}
+   @genres_count = {}
     @@genres.collect do |genre|
-      @genre_count[genre] = genre.count
+      @genres_count[genre] = genre.count
     end
   end
 
