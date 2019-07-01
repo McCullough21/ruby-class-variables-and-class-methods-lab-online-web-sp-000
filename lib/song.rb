@@ -18,12 +18,14 @@ def artists=(array)
   @artists = @@artists.uniq
 end
 
+def artists
+  @artists
+end
+
   def self.count
     @@count
   end
-  # def self.artists
-  #   @artists
-  # end
+
   def self.genres
     @@genres
   end
